@@ -34,9 +34,10 @@ ___
 - [Technical task](https://skyengpublic.notion.site/02df5c2390684e3da20c7a696f5d463d)
 ___
 ## Development team:
+- [Кузьминых Алексей](https://github.com/Al3x3y86)
 - [Вихарев Николай](https://github.com/ViharevN)
 - [Хотенов Василий](https://github.com/VasiliyKhotenov13)
-- [Кузьминых Алексей](https://github.com/Al3x3y86)
+
 
 ___
 ## Tools used in the project
