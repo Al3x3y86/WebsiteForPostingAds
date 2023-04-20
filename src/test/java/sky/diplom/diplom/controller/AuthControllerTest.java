@@ -17,16 +17,14 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.web.servlet.MockMvc;
-import ru.skypro.homework.controller.AuthController;
-import ru.skypro.homework.dto.LoginReqDto;
-import ru.skypro.homework.dto.RegisterReqDto;
-import ru.skypro.homework.dto.Role;
-import ru.skypro.homework.entity.User;
-import ru.skypro.homework.repository.UserRepository;
+import sky.diplom.diplom.dto.LoginReqDto;
+import sky.diplom.diplom.dto.RegisterReqDto;
+import sky.diplom.diplom.dto.Role;
+import sky.diplom.diplom.entity.User;
+import sky.diplom.diplom.repository.UserRepository;
 
 import javax.validation.ValidationException;
 
-import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
