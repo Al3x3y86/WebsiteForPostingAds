@@ -15,14 +15,13 @@ import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.transaction.annotation.Transactional;
-import ru.skypro.homework.controller.UserController;
-import ru.skypro.homework.dto.NewPasswordDto;
-import ru.skypro.homework.dto.Role;
-import ru.skypro.homework.dto.UserDto;
-import ru.skypro.homework.entity.Image;
-import ru.skypro.homework.entity.User;
-import ru.skypro.homework.repository.ImageRepository;
-import ru.skypro.homework.repository.UserRepository;
+import sky.diplom.diplom.dto.NewPasswordDto;
+import sky.diplom.diplom.dto.Role;
+import sky.diplom.diplom.dto.UserDto;
+import sky.diplom.diplom.entity.Image;
+import sky.diplom.diplom.entity.User;
+import sky.diplom.diplom.repository.ImageRepository;
+import sky.diplom.diplom.repository.UserRepository;
 
 import java.time.Instant;
 

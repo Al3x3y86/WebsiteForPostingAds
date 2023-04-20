@@ -3,13 +3,15 @@ package sky.diplom.diplom.controller;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.springframework.mock.web.MockMultipartFile;
-import ru.skypro.homework.dto.AdsCommentDto;
-import ru.skypro.homework.dto.AdsDto;
-import ru.skypro.homework.dto.Role;
-import ru.skypro.homework.entity.Ads;
-import ru.skypro.homework.entity.AdsComment;
-import ru.skypro.homework.entity.Image;
-import ru.skypro.homework.entity.User;
+import sky.diplom.diplom.dto.AdsCommentDto;
+import sky.diplom.diplom.dto.AdsDto;
+import sky.diplom.diplom.dto.Role;
+import sky.diplom.diplom.entity.Ads;
+import sky.diplom.diplom.entity.AdsComment;
+import sky.diplom.diplom.entity.Image;
+import sky.diplom.diplom.entity.User;
+
+
 
 import java.io.IOException;
 import java.time.Instant;

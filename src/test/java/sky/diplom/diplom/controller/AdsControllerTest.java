@@ -13,13 +13,13 @@ import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.transaction.annotation.Transactional;
-import ru.skypro.homework.controller.AdsController;
-import ru.skypro.homework.dto.Role;
-import ru.skypro.homework.entity.User;
-import ru.skypro.homework.repository.AdsCommentRepository;
-import ru.skypro.homework.repository.AdsRepository;
-import ru.skypro.homework.repository.ImageRepository;
-import ru.skypro.homework.repository.UserRepository;
+import sky.diplom.diplom.dto.Role;
+import sky.diplom.diplom.entity.User;
+import sky.diplom.diplom.repository.AdsCommentRepository;
+import sky.diplom.diplom.repository.AdsRepository;
+import sky.diplom.diplom.repository.ImageRepository;
+import sky.diplom.diplom.repository.UserRepository;
+
 
 import java.time.Instant;
 
@@ -29,6 +29,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 import static sky.diplom.diplom.controller.TestConstants.*;
+
 
 @DirtiesContext(classMode = DirtiesContext.ClassMode.BEFORE_EACH_TEST_METHOD)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK)
